@@ -17,19 +17,13 @@
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-        
+
     </head>
 
     <body>
 
         <div id="header">
 
-            <div class="header-background">
-                <div class="header-text"><h1>Your book is here!</h1>
-                <h4>To view the list of books, tap any of the below categories</h4>
-                </div>
-            </div>
-        
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headermenu"
                         aria-controls="headermenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,8 +35,8 @@
 						<li class="nav-item">
 							<a class="nav-link" href="index.html">Home</a>
 						</li>
-						<li class="nav-item">			 
-							<a class="nav-link" href="categories.html">Categories</a> 
+						<li class="nav-item">
+							<a class="nav-link" href="categories.html">Categories</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="about.html">About us</a>
@@ -66,13 +60,14 @@
                 <label for="fName" class="visually-hidden">First name</label>
                 <input type="text" id="fName" class="form-control" placeholder="First name" required>
 
-
-
+                <label for="sName" class="visually-hidden">Surname</label>
+                <input type="text" id="sName" class="form-control" placeholder="Surname" required>
+                <label for="address" class="visually-hidden">Adress</label>
+                <input type="text" id="address" class="form-control" placeholder="Address" required>
                 <label for="inputPassword" class="visually-hidden">Password</label>
                 <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
                 <label for="inputPassword" class="visually-hidden">Confirm Password</label>
                 <input type="password" id="inputPassword" class="form-control" placeholder="Confirm password" required>
-                
 
                 <div class="checkbox mb-3">
                     <label>
@@ -80,8 +75,7 @@
                     </label>
                 </div>
 
-                <button class="w-100 btn btn-lg btn-primary" type="submit">Sign In</button>
-                <a id="newUsers" class="w-100 btn btn-lg btn-secondary" href="newmember.html" role="button">New Users Click Here</a>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Register Now</button>
                 <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
                 </form>
             </main>
